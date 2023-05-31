@@ -14,12 +14,12 @@ const theme = extendTheme({
 			},
 			body: {
 				fontFamily:
-					"Oxygen, Ubuntu, Ubuntu-L, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
+					"Ubuntu, Oxygen, Ubuntu-L, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
 				color: "white",
 				lineHeight: "base",
 				padding: 0,
 				margin: 0,
-				backgroundColor: "#201c24",
+				backgroundColor: "#769c99",
 			},
 			a: {
 				color: "inherit",

@@ -1,17 +1,15 @@
 import React from 'react';
-import { VStack, AbsoluteCenter, Text } from "@chakra-ui/react"
+import { VStack, Center } from "@chakra-ui/react"
+import Display from "./components/Display"
 
 function App({ Component, pageProps}) {
   return (
     <>
       <VStack>
-        <AbsoluteCenter
-            marginTop={""}>
-          <Text
-            align={"center"}>
-            Display Spotify information here
-          </Text>
-        </AbsoluteCenter>
+        <Center
+          marginTop="20px">
+              <Display />
+        </Center>
       </VStack>
     </>
   );
