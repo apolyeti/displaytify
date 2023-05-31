@@ -1,4 +1,5 @@
 import { VStack, HStack, SlideFade, Container } from '@chakra-ui/react';
+import Login from "./Login"
 const { shell } = require('electron');
 
 
@@ -16,9 +17,9 @@ export default function Display() {
                     },
                 }}
                 >
-            <Container align={"center"} fontSize={"3xl"}>
-                displaytify
-            </Container>
+                <Container align={"center"} fontSize={"3xl"}>
+                    displaytify
+                </Container>
             </SlideFade>
             <HStack 
             spacing={"50px"}
@@ -33,9 +34,7 @@ export default function Display() {
                     },
                 }}
                 >
-                <Container align={"center"} fontSize={"3xl"}>
-                    login
-                </Container>
+                    <Login />
                 </SlideFade>
                 <SlideFade
                 offsetX={"30px"}
