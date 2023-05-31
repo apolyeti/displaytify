@@ -49,13 +49,15 @@ export default function Display() {
                 >
                     {
                         // make container clickable, since window is draggable from anywhere
+                        // make it so the color of the container darkens when hovered over
                     }
                 <Container 
-                    className='draggable'
                     cursor={"pointer"}
                     align={"center"} fontSize={"3xl"}
                     css="-webkit-app-region: no-drag;"
-                    onClick={()=> shell.openExternal("https://github.com/apolyeti/displaytify")}>
+                    onClick={()=> shell.openExternal("https://github.com/apolyeti/displaytify")}
+                    _hover={{ color: "#ccd9ed" }}
+                    >
                     github
                 </Container>
                 </SlideFade>
