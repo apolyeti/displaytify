@@ -10,13 +10,14 @@ let mainWindow;
 function createWindow() {
     // Create a loading screen window
     loadingScreen = new BrowserWindow({
-        width: 350,
+        width: 300,
         height: 150,
         webPreferences: { nodeIntegration: true, contextIsolation: false },
         resizable: false,
         frame: false,
         show: false,
-        backgroundColor: "#769c99",
+        backgroundColor: "#3c5469",
+        opacity: 0.9,
     });
     
     loadingScreen.loadFile(
@@ -30,14 +31,14 @@ function createWindow() {
 
     // Create the browser window.
     mainWindow = new BrowserWindow({
-        width: 350,
+        width: 300,
         height: 150,
         webPreferences: { nodeIntegration: true, contextIsolation: false },
         resizable: false,
         frame: false,
         show: false,
-        backgroundColor: "#769c99",
-
+        backgroundColor: "#3c5469",
+        opacity: 0.9,
     });
     // and load the index.html of the app.
     console.log(__dirname);

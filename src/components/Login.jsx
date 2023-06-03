@@ -6,6 +6,8 @@ export default function Login() {
     <Text 
         align={"center"} 
         fontSize={"3xl"}
+        marginLeft={"20px"}
+        onClick={() => {window.open('localhost:3000/test')}}
     >
         login
     </Text>

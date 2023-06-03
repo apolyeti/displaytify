@@ -8,11 +8,11 @@ export default function Display() {
     return (
         <VStack>
             <SlideFade
-                offsetY={"30px"}
+                offsetY={"-30px"}
                 in={true}
                 transition={{
                     enter: {
-                        duration: 1.75,
+                        duration: 1.25,
                         delay: 0.5,
                     },
                 }}
@@ -22,27 +22,26 @@ export default function Display() {
                 </Container>
             </SlideFade>
             <HStack 
-            spacing={"50px"}
             marginTop="30px">
                 <SlideFade
-                offsetX={"-30px"}
+                offsetY={"30px"}
                 in={true}
                 transition={{
                     enter: {
-                        duration: 1.5,
-                        delay: 1,
+                        duration: 1,
+                        delay: 1.5,
                     },
                 }}
                 >
                     <Login />
                 </SlideFade>
                 <SlideFade
-                offsetX={"30px"}
+                offsetY={"30px"}
                 in={true}
                 transition={{
                     enter: {
-                        duration: 1.5,
-                        delay: 1,
+                        duration: 1,
+                        delay: 1.5,
                     },
                 }}
                 >

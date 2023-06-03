@@ -19,7 +19,7 @@ const theme = extendTheme({
 				lineHeight: "base",
 				padding: 0,
 				margin: 0,
-				backgroundColor: "#769c99",
+				backgroundColor: "#3c5469",
 			},
 			a: {
 				color: "inherit",
