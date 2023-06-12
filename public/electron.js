@@ -17,7 +17,7 @@ function createWindow() {
         frame: false,
         show: false,
         backgroundColor: "#3c5469",
-        opacity: 0.9,
+        opacity: 0.98,
     });
     
     loadingScreen.loadFile(
@@ -38,7 +38,7 @@ function createWindow() {
         frame: false,
         show: false,
         backgroundColor: "#3c5469",
-        opacity: 0.9,
+        opacity: 0.98,
     });
     // and load the index.html of the app.
     console.log(__dirname);
