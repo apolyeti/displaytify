@@ -1,4 +1,8 @@
 import { Text } from '@chakra-ui/react';
+import React from 'react';
+import { shell } from 'electron';
+
+const AUTH_URL = "https://accounts.spotify.com/authorize?client_id=c3a3607548814a2d9c7b863e13d2c6ed&response_type=code&redirect_uri=http://localhost:3000&scope=streaming"
 
 
 export default function Login() {
@@ -10,7 +14,7 @@ export default function Login() {
         align={"center"} 
         fontSize={"3xl"}
         marginLeft={"20px"}
-        onClick={() => {window.open('localhost:3000/test')}}
+        onClick={() => {window.open(AUTH_URL)}}
         _hover={{ color: "#ccd9ed" }}
         css="-webkit-app-region: no-drag;"
     >
